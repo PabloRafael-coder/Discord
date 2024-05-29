@@ -1,16 +1,31 @@
 @import url('reset.css');
 @import url('mobile.css');
 
+<<<<<<< HEAD
 * {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+=======
+body{
+    display: grid;
+    grid-template-rows: repeat(4, 530px);
+    grid-template-areas: 
+    'header'
+    'first-section'
+    'second-section'
+    'third-section'
+    'founth-section';
+    margin: 0px;
+    padding: 0%;
+>>>>>>> b77b7a78d1ce36995628df5e61947b23dcd1db1b
 }
 
 header{
     display: flex;
     justify-content: center;
     align-items: center;
+<<<<<<< HEAD
     background-image: url(../img/headerbackground.png);
     background-size: cover;
     background-position: center;
@@ -20,6 +35,18 @@ header{
 }
 
 header .header-content {
+=======
+    grid-area: header;
+    background-image: url('../img/headerbackground.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    max-height: 100vh;
+}
+
+header .header-content{
+>>>>>>> b77b7a78d1ce36995628df5e61947b23dcd1db1b
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -28,6 +55,7 @@ header .header-content {
     gap: 24px;
 }
 
+<<<<<<< HEAD
 header .header-content-text {
     display: flex;
     flex-direction: column;
@@ -39,6 +67,8 @@ header .header-content-text p {
     color: #ffffff;
 }
 
+=======
+>>>>>>> b77b7a78d1ce36995628df5e61947b23dcd1db1b
 header .header-button{
     display: flex;
     align-items: flex-start;
@@ -62,6 +92,7 @@ header .header-button{
     color: rgba(255, 255, 255, 1);
 }
 
+<<<<<<< HEAD
 .first-content{
     display: flex;
     justify-content: center;
@@ -71,6 +102,20 @@ header .header-button{
     padding: 40px;
 
     
+=======
+.first-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: first-section;
+}
+
+.first-content{
+    display: flex;
+    gap: 16px;
+    width: 971px;
+    height: 394px;
+>>>>>>> b77b7a78d1ce36995628df5e61947b23dcd1db1b
     
 }
 
@@ -79,6 +124,7 @@ header .header-button{
     max-height: 394px;
 }
 
+<<<<<<< HEAD
 .first-text {
     width: 351px;
     display: flex;
@@ -88,6 +134,12 @@ header .header-button{
 
 .first-text h2{
     width: 100%;
+=======
+
+.first-text h2{
+    width: 329px;
+    height: 270px;
+>>>>>>> b77b7a78d1ce36995628df5e61947b23dcd1db1b
     font-family: 'open sans';
     font-weight: 800;
     margin: 0px;
@@ -95,13 +147,22 @@ header .header-button{
 }
 
 .first-text p{
+<<<<<<< HEAD
     width: 100%;
     font-family: 'open sans';
     text-align: left;
+=======
+    width: 348px;
+    height: 88px;
+    font-family: 'open sans';
+    text-align: left;
+    margin: 20px 0px 0px 0px ;
+>>>>>>> b77b7a78d1ce36995628df5e61947b23dcd1db1b
     color: rgba(35, 39, 42, 1);
 }
 
 
+<<<<<<< HEAD
 .second-container{
     display: flex;
     justify-content: center;
@@ -132,6 +193,34 @@ header .header-button{
 
 .second-container-text h2{
     width: 100%;
+=======
+.second-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    background-color:rgba(246, 246, 246, 1);
+    grid-area: second-section;
+}
+
+
+.second-text{
+    width: 351px;
+    height: 212px;
+}
+
+.second-text p{
+    width: 348px;
+    font-family: 'open sans';
+    text-align: left;
+    margin-top: 16px;
+    color: rgba(35, 39, 42, 1);
+}
+
+.second-text h2{
+    width: 329px;
+    height: 108px;
+>>>>>>> b77b7a78d1ce36995628df5e61947b23dcd1db1b
     font-family: 'open sans';
     font-size: 40px;
     font-weight: 800;
@@ -139,6 +228,7 @@ header .header-button{
     color: #23272A;
 }
 
+<<<<<<< HEAD
 .second-container-image img {
     width: 100%;
     height: auto;
@@ -172,6 +262,47 @@ header .header-button{
 
 .third-text p {
     text-align: left;
+=======
+.second-image{
+    max-width: 607px;
+    max-height: 394px;
+}
+
+.third-section {
+    grid-area: third-section;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.third-image img{
+    max-width: 607px;
+    max-height: 394px;
+    flex-shrink: 0;
+}
+
+.third-text{
+    width: 351px;
+    height: 234px;
+}
+
+.third-text h2 {
+    width: 329px;
+    height: 108px;
+    font-family: 'open sans';
+    font-size: 40px;
+    font-weight: 800;
+    margin: 0px;
+    color: #23272A;
+}
+
+.third-text p{
+    width: 348px;
+    height: 110px;
+    text-align: left;
+    margin-top: 16px;
+>>>>>>> b77b7a78d1ce36995628df5e61947b23dcd1db1b
     font-family: 'open sans';
     color: #23272A;
 }
