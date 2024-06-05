@@ -1,24 +1,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Open+Sans&display=swap');
 
-h1{
-    width: 313px;
-    height: auto;
-    margin: 0px;
-    font-family: 'luckiest guy';
-    font-size: 56px;
-    font-weight: 400;
-    text-align: center;
-    color: rgba(255, 255, 255, 1);
+
+
+h2 {
+
 }
 
 p{
     font-family: 'open sans';
-<<<<<<< HEAD
     margin: 10px;
-=======
-    text-align: center;
-    margin: 0px;
-    color: rgba(255, 255, 255, 1);
->>>>>>> b77b7a78d1ce36995628df5e61947b23dcd1db1b
 }
